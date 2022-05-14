@@ -126,4 +126,4 @@ Thanks to [Recharts](https://github.com/recharts/recharts) for the inspiration o
 
 Thanks to Highcharts themselves, obviously.
 
-Thanks to @anajavi for all the help and support in maintaining this project.
+Thanks to @ITopGun for all the help and support in maintaining this project.
