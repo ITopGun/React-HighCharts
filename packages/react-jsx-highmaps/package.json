@@ -1,0 +1,63 @@
+{
+  "name": "react-jsx-highmaps",
+  "version": "3.0.0-alpha.0",
+  "description": "Highmaps built using React components",
+  "main": "dist/react-jsx-highmaps.min.js",
+  "module": "dist/es/index.js",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "src",
+    "types"
+  ],
+  "scripts": {
+    "build": "cross-env NODE_ENV=development webpack",
+    "build:prod": "npm run build:umd && npm run build:es",
+    "build:umd": "cross-env NODE_ENV=production webpack",
+    "build:es": "cross-env BABEL_ENV=es babel src --out-dir dist/es",
+    "clean": "rimraf dist",
+    "format": "prettier --write \"src/**/*.js\" \"test/**/*.js\" README.md",
+    "lint": "eslint src",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:types": "tsc --noEmit"
+  },
+  "author": "Will Hawker",
+  "contributors": [],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whawker/react-jsx-highcharts.git"
+  },
+  "bugs": "https://github.com/whawker/react-jsx-highcharts/issues",
+  "homepage": "https://github.com/whawker/react-jsx-highcharts",
+  "keywords": [
+    "react",
+    "reactjs",
+    "react-component",
+    "highcharts",
+    "highmaps",
+    "chart",
+    "charts",
+    "graphs",
+    "visualization",
+    "data",
+    "maps"
+  ],
+  "dependencies": {
+    "react-jsx-highcharts": "5.0.0-alpha.0"
+  },
+  "peerDependencies": {
+    "highcharts": "^9.1.2 || ^10.0.0",
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "types": "types/index.d.ts",
+  "browserslist": [
+    "chrome >= 81",
+    "edge >= 81",
+    "firefox >= 78",
+    "ios >= 12",
+    "safari >= 12"
+  ]
+}
