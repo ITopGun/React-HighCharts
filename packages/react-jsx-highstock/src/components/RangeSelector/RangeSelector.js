@@ -38,7 +38,7 @@ const RangeSelector = ({ enabled = true, children, ...restProps }) => {
       try {
         updateRangeSelector({ enabled: false }, chart);
       } catch {
-        // ignore as chart might have been already unmounted
+        
       }
     };
   }, [axis]);

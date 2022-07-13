@@ -10,7 +10,7 @@ const Scrollbar = ({ children, enabled = true, ...restProps }) => {
       try {
         updateScrollbar({ enabled: false }, chart);
       } catch {
-        // ignore as chart might have been already unmounted
+        
       }
     };
   }, []);
