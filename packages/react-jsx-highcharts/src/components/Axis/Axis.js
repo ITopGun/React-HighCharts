@@ -43,8 +43,7 @@ const Axis = ({ children = null, dynamicAxis = true, ...restProps }) => {
         events,
         ...nonEventProps
       };
-      // if there are plotlines or bands, the chart needs to be redrawn before
-      // they can be accessed
+      // if there are plotlines or bands, the chart needs to be redrawn before they can be accessed
       if (axis.plotLinesAndBands && axis.plotLinesAndBands.length > 0) {
         axis.update(updateProps, true);
       } else {
