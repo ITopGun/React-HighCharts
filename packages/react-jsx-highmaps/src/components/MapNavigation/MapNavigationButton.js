@@ -25,7 +25,7 @@ const getMapNavigationButtonConfig = (props, Highcharts) => {
   return {
     ...(Highcharts.defaultOptions &&
       Highcharts.defaultOptions.mapNavigation.buttonOptions),
-    onclick, 
+    onclick, // Weird Highcharts inconsistency, onclick instead of events: { click }
     ...rest,
     text
   };

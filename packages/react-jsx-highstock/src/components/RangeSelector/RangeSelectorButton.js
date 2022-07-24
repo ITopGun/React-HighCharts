@@ -40,7 +40,7 @@ const RangeSelectorButton = ({
       try {
         removeButton(props, chart);
       } catch {
-        
+        // ignore as chart might have been already unmounted
       }
     };
   }, []);

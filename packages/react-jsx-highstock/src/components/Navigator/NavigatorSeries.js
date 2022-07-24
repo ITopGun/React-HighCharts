@@ -12,7 +12,7 @@ const NavigatorSeries = props => {
       try {
         updateNavigatorSeries(series, { showInNavigator: false });
       } catch {
-        
+        // ignore as series might have been already unmounted
       }
     };
   }, [series]);
