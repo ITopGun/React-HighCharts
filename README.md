@@ -34,7 +34,7 @@ npm install --save react react-dom highcharts@^9.0.0
 ```
 
 
-## [Documentation](https://github.com/whawker/react-jsx-highcharts/wiki)
+## [Documentation](https://github.com/ITopGun/React-HighCharts/wiki)
 
 ## [Examples](https://codesandbox.io/s/github/whawker/react-jsx-highcharts-examples)
 
