@@ -36,8 +36,6 @@ npm install --save react react-dom highcharts@^9.0.0
 
 ## [Documentation](https://github.com/ITopGun/React-HighCharts/wiki)
 
-## [Examples](https://codesandbox.io/s/github/whawker/react-jsx-highcharts-examples)
-
 ## Getting started
 
 The intention of this library is to provide a very thin abstraction of Highcharts using React components. This has been achieved by passing Highcharts configuration options as component props.
